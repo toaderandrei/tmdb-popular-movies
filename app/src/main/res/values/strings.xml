@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Common -->
+    <string name="view_empty_message">No matching items</string>
+    <string name="view_error_message">This content is not available offline.</string>
+
+    <string name="app_name">PopularMovies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sort_order_release_date_asc">Sort by release date asc</string>
+    <string name="sort_order_release_date_desc">Sort by release date desc</string>
+
+    <string name="sort_order_original_title_asc">Sort by original title asc</string>
+    <string name="sort_order_original_title_desc">Sort by original title desc</string>
+
+    <string name="sort_order_popularity_asc">Sort by popularity asc</string>
+    <string name="sort_order_popularity_desc">Sort by popularity desc</string>
+
+    <string name="sort_order_average_count_asc">Sort by average count asc</string>
+    <string name="sort_order_average_count_desc">Sort by average count desc</string>
+    <string name="sort_order_vote_count_desc">Sort by vote count desc</string>
+
+    <string name="clear_caches">Clear caches</string>
+
+    <string name="image_description">Image description:</string>
+    <string name="movie_title">Movie title</string>
+    <string name="release_date">Release date: </string>
+    <string name="vote_average">Vote average: </string>
+    <string name="overview_movie">Overview: </string>
+    <string name="empty_movie_fragment">No Movie to load</string>
+    <string name="youtube_api_key">youtube_api_key</string>
+    <string name="youtube_init_faiure">youtube initilization failure</string>
+    <string name="no_movie_trailers">no trailers</string>
+    <string name="movie_item_save_favorites">Mark as Favorite</string>
+    <string name="movie_image_desc">Movie Description</string>
+    <string name="message_movie_favored">Movie is favored. It will be saved to the database</string>
+    <string name="empty_message">Empty</string>
+    <string name="fragment_empty_message">No Movie Selected</string>
+
+    <string name="mode_favored">Favorites</string>
+    <string name="play_trailer_desc">Video Trailer</string>
+    <string name="movie_item_btn_favorite_desc">Save to favorites</string>
+    <string name="movie_videos">Trailers</string>
+    <string name="movie_reviews">Reviews</string>
+    <string name="movie_details_trailer_play" />
+
+    <string name="movie_details_trailer_desc">Play the trailer</string>
+    <string name="tv_general_text">Movie Reviews</string>
+
+
+</resources>

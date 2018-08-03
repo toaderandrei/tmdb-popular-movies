@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_item_container"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/md_red_300"
+    android:orientation="vertical">
+
+    <com.org.android.popularmovies.widgets.ResizedImageView
+        android:id="@+id/movie_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/movie_image_desc"
+        app:imgAspectRatio="@dimen/movie_item_image_aspect_ratio"
+        tools:layout_width="300dp"
+        tools:src="@drawable/placeholder_movie_item_image" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/margin_top_8dp">
+
+
+        <TextView
+            android:id="@+id/movie_item_title"
+            style="@style/MovieItemText"
+            android:lines="2"
+            android:text="@{viewModel.itemName}"
+            android:textColor="@color/grey_100"
+            android:textSize="@dimen/text_size_big"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/movie_item_btn_favorite"
+            app:layout_constraintHorizontal_bias="0.150"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:text="Jurassic World" />
+
+        <TextView
+            android:id="@+id/movie_item_genres"
+            style="@style/MovieItemText"
+            android:text="Action"
+            android:textColor="@color/grey_100"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/movie_item_btn_favorite"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+
+            tools:text="Action" />
+
+        <ImageButton
+            android:id="@+id/movie_item_btn_favorite"
+            style="@style/FavoriteButton"
+            android:layout_alignParentEnd="true"
+            android:background="@color/md_red_300"
+            android:clickable="true"
+            android:contentDescription="@string/movie_item_save_favorites"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

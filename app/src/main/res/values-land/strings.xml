@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play_trailer_desc">Video Trailer</string>
+    <string name="movie_item_btn_favorite_desc"><![CDATA[<string name=\"movie_item_btn_favorite_desc\">Save to favorites</string>]]></string>
+    <string name="movie_videos">Trailers</string>
+    <string name="movie_reviews">Reviews</string>
+    <string name="movie_details_trailer_play" />
+    <string name="tv_general_text">Movie Reviews</string>
+</resources>

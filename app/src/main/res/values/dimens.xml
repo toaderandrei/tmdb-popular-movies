@@ -1,0 +1,147 @@
+<resources>
+    <dimen name="item_spacing_half">2dp</dimen>
+
+    <item name="movie_item_image_aspect_ratio" format="float" type="dimen">.675</item>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+    <dimen name="image_thumbnail_size">120dp</dimen>
+    <dimen name="image_thumbnail_spacing">2dp</dimen>
+    <!-- text sizes-->
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_vmedium">18sp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
+    <!-- end text sizes-->
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_elevation">8dp</dimen>
+
+    <!--  margin top sizes-->
+    <dimen name="margin_top_small">4dp</dimen>
+    <dimen name="margin_top_medium">16dp</dimen>
+    <dimen name="margin_top_medium_positive">16dp</dimen>
+    <dimen name="margin_top_big">32dp</dimen>
+    <dimen name="margin_top_vbig">64dp</dimen>
+    <dimen name="margin_top_vvbig">72dp</dimen>
+
+
+    <dimen name="movie_poster_width">160dp</dimen>
+
+    <dimen name="spinner_left_padding">0dp</dimen>
+    <dimen name="spinner_drawable_padding">16dp</dimen>
+    <dimen name="explore_dropdown_item_height">48dp</dimen>
+    <dimen name="explore_spinner_width">200dp</dimen>
+
+    <!-- end of margin top sizes-->
+    <!--  margin top sizes-->
+    <dimen name="margin_bottom_ssmall">2dp</dimen>
+    <dimen name="margin_bottom_small">4dp</dimen>
+    <dimen name="margin_bottom_medium">16dp</dimen>
+    <dimen name="margin_bottom_big">32dp</dimen>
+    <dimen name="margin_bottom_vbig">64dp</dimen>
+    <dimen name="margin_bottom_vvbig">72dp</dimen>
+
+    <dimen name="movie_details_poster_width">150dp</dimen>
+    <dimen name="movie_details_poster_left_margin">16dp</dimen>
+
+    <!-- end of margin top sizes-->
+    <!--  margin left sizes-->
+    <dimen name="margin_left_ssmall">2dp</dimen>
+    <dimen name="margin_left_small">4dp</dimen>
+    <dimen name="margin_left_smedium">8dp</dimen>
+    <dimen name="margin_left_medium">16dp</dimen>
+
+    <dimen name="margin_left_vmedium">32dp</dimen>
+    <dimen name="margin_left_svmedium">48dp</dimen>
+
+    <dimen name="margin_left_vvmedium">64dp</dimen>
+
+    <dimen name="margin_left_big">32dp</dimen>
+    <dimen name="margin_left_svbig">48dp</dimen>
+
+    <dimen name="margin_left_vbig">64dp</dimen>
+    <dimen name="margin_left_vvbig">72dp</dimen>
+
+    <!-- end of margin left sizes-->
+
+    <dimen name="item_load_more_size">48dp</dimen>
+    <!--  margin right sizes-->
+    <dimen name="margin_right_small">4dp</dimen>
+    <dimen name="margin_right_ssmall">2dp</dimen>
+    <dimen name="margin_right_medium">16dp</dimen>
+    <dimen name="margin_right_big">32dp</dimen>
+    <dimen name="margin_right_vbig">64dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="element_spacing_normal">8dp</dimen>
+
+    <!-- margins -->
+    <!--top-->
+    <dimen name="margin_top_4dp">4dp</dimen>
+    <dimen name="margin_top_8dp">8dp</dimen>
+    <dimen name="margin_top_12dp">12dp</dimen>
+    <dimen name="margin_top_16dp">16dp</dimen>
+    <dimen name="margin_top_20dp">20dp</dimen>
+    <dimen name="margin_top_24dp">24dp</dimen>
+    <dimen name="margin_top_32dp">32dp</dimen>
+    <dimen name="margin_top_huge_40dp">40dp</dimen>
+    <dimen name="margin_top_48dp">48dp</dimen>
+    <dimen name="margin_top_64dp">64dp</dimen>
+    <dimen name="margin_top_54dp">54dp</dimen>
+
+    <dimen name="margin_top_120dp">120dp</dimen>
+
+    <dimen name="margin_top_125dp">125dp</dimen>
+
+    <!--bottom-->
+
+    <dimen name="margin_bottom_4dp">4dp</dimen>
+    <dimen name="margin_bottom_8dp">8dp</dimen>
+    <dimen name="margin_bottom_10dp">10dp</dimen>
+    <dimen name="margin_bottom_12dp">12dp</dimen>
+    <dimen name="margin_bottom_16dp">16dp</dimen>
+    <dimen name="margin_bottom_20dp">20dp</dimen>
+    <dimen name="margin_bottom_24dp">24dp</dimen>
+    <dimen name="margin_bottom_32dp">32dp</dimen>
+    <dimen name="margin_bottom_huge_40dp">40dp</dimen>
+    <dimen name="margin_bottom_48dp">48dp</dimen>
+    <dimen name="margin_bottom_54dp">54dp</dimen>
+    <dimen name="margin_bottom_64dp">64dp</dimen>
+
+    <!--left-->
+    <dimen name="margin_left_8dp">8dp</dimen>
+    <dimen name="margin_left_12dp">12dp</dimen>
+    <dimen name="margin_left_16dp">16dp</dimen>
+    <dimen name="margin_left_20dp">20dp</dimen>
+    <dimen name="margin_left_24dp">24dp</dimen>
+    <dimen name="margin_left_32dp">32dp</dimen>
+    <dimen name="margin_left_huge_40dp">40dp</dimen>
+    <dimen name="margin_left_48dp">48dp</dimen>
+    <dimen name="margin_left_64dp">64dp</dimen>
+
+    <!--right-->
+    <dimen name="margin_right_8dp">8dp</dimen>
+    <dimen name="margin_right_12dp">12dp</dimen>
+    <dimen name="margin_right_16dp">16dp</dimen>
+    <dimen name="margin_right_20dp">20dp</dimen>
+    <dimen name="margin_right_24dp">24dp</dimen>
+    <dimen name="margin_right_32dp">32dp</dimen>
+    <dimen name="margin_right_huge_40dp">40dp</dimen>
+    <dimen name="margin_right_48dp">48dp</dimen>
+    <dimen name="margin_right_64dp">64dp</dimen>
+
+
+    <!-- Text sizes-->
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="margin_left_4dp">4dp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="text_max_width">160dp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+
+
+    <!--  end of margin right sizes-->
+
+
+</resources>

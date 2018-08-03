@@ -1,0 +1,50 @@
+<!--
+  Copyright 2015.  Andrei Toader
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeightSmall"
+    android:clickable="true"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="@dimen/margin_left_smedium"
+        android:layout_marginStart="@dimen/margin_left_smedium"
+        android:contentDescription="@string/play_trailer_desc"
+        android:src="@drawable/ic_play_circle"
+        android:tint="@color/theme_primary_dark"
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/margin_right_medium"
+        android:layout_marginLeft="@dimen/margin_left_medium"
+        android:layout_marginRight="@dimen/margin_right_medium"
+        android:layout_marginStart="@dimen/margin_left_medium"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Movie Video Name"
+        android:layout_weight="0.9"/>
+
+</LinearLayout>
